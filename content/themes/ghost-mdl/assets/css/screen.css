@@ -2334,7 +2334,17 @@ img{
   .post .syntaxhighlighter table td.code .line {
     white-space: nowrap !important;
     word-wrap: inherit !important; }
-
+    .mdl-layout__header-row{
+          padding: 0 40px 0 30px;
+    }
+    .android-title.mdl-layout-title{
+      background: orange;
+      padding: 22px;
+    }
+  .android-title.mdl-layout-title a{
+    color:#fff;
+    text-decoration: none;
+  }
 
 /*********/
 @media (max-width: 839px) and (min-width: 480px){
@@ -2362,5 +2372,8 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     }
     .mdl-card__supporting-text{
       width:100%;
+    }
+    .mdl-layout__header-row{
+          padding: 0 10px 0 0px;
     }
   }
