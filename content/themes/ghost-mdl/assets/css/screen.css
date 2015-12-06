@@ -367,8 +367,7 @@ margin on the iframe, cause it breaks stuff. */
 /* Creates a responsive wrapper that makes our content scale nicely */
 .inner {
     position: relative;
-    width: 80%;
-    max-width: 710px;
+    width: 100%;
     margin: 0 auto;
 }
 
@@ -1385,13 +1384,24 @@ body:not(.post-template) .post-title {
 /* The main wrapper for our pagination links */
 .pagination {
     position: relative;
-    width: 80%;
-    max-width: 710px;
-    margin: 4rem auto;
-    font-family: "Open Sans", sans-serif;
+    width: 100%;
     font-size: 1.3rem;
     color: #9EABB3;
     text-align: center;
+}
+.mdl-grid.extra-pagination{
+  margin-top: 20px;
+  padding:0px;
+  padding-bottom: 10px;
+}
+.mdl-grid.extra-pagination.bottom{
+  display:inline!important;
+  margin-top: 0px;
+  margin-bottom: 25px;
+  border-bottom: none;
+}
+.mdl-grid.extra-pagination.bottom:after {
+    display: none;
 }
 
 .pagination a {
@@ -1433,24 +1443,17 @@ body:not(.post-template) .post-title {
 
 .extra-pagination {
     display: none;
-    border-bottom: #EBF2F6 1px solid;
+    margin-left:15px;
 }
-.extra-pagination:after {
-    display: block;
-    content: "";
-    width: 7px;
-    height: 7px;
-    border: #E7EEF2 1px solid;
-    position: absolute;
-    bottom: -5px;
-    left: 50%;
-    margin-left: -5px;
-    background: #FFF;
-    border-radius: 100%;
-    box-shadow: #FFF 0 0 0 5px;
-}
+
 .extra-pagination .pagination {
-    width: auto;
+    width: 93%;
+    border-bottom: #EBF2F6 1px solid;
+    padding-bottom: 10px;
+}
+.extra-pagination.bottom .pagination {
+    border-bottom: 0px;
+    margin-top: 20px;
 }
 
 /* On page2+ make all the headers smaller */
@@ -1720,11 +1723,6 @@ body:not(.post-template) .post-title {
         padding: 60px 9% 5%;
     }
 
-    .inner,
-    .pagination {
-        width: auto;
-        margin: 2rem auto;
-    }
 
     .post {
         width: auto;
@@ -2323,5 +2321,11 @@ img{
 @media (max-width: 839px) and (min-width: 480px){
 .mdl-grid {
     padding: 0px;
+}
+}
+@media (max-width: 479px){
+header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
+  height:20vh;
+
 }
 }
