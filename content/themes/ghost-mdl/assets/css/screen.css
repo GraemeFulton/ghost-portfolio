@@ -2338,12 +2338,11 @@ img{
           padding: 0 40px 0 30px;
     }
     .android-title.mdl-layout-title{
-      background: orange;
       padding: 22px;
     }
   .android-title.mdl-layout-title a{
-    color:#fff;
     text-decoration: none;
+    font-weight: 800;
   }
 
 /*********/
