@@ -4,7 +4,8 @@
    <div class=" mdl-layout__header mdl-layout__header--waterfall is-casting-shadow is-compact">
      <div class="mdl-layout__header-row">
        <span class="android-title mdl-layout-title">
-         <img class="android-logo-image" src="images/android-logo.png">
+                {{#if @blog.logo}}<a class="android-logo-image" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
+                 <a href="{{@blog.url}}">GF</a>
        </span>
        <!-- Add spacer, to align navigation to the right in desktop -->
        <div class="android-header-spacer mdl-layout-spacer"></div>

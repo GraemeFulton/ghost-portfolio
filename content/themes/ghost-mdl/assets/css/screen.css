@@ -408,7 +408,7 @@ body.nav-opened .site-wrapper {
     position: relative;
     display: table;
     width: 100%;
-    height: 100vh;
+    height: 50vh;
     margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
@@ -2221,4 +2221,26 @@ footer {
   float:left;
   position:relative;
   width:100%;
+}
+h3 a{
+  text-decoration: none;
+  color:#fff;
+}
+.mdl-card__media{
+  padding:15px;
+}
+.mdl-cell{
+  height:70vh;
+}
+.mdl-card__media{
+  height:50vh;
+}
+
+h5.loop-title {
+  margin-top: 0px!important;
+
+}
+.loop-title a{
+  color:#333;
+  text-decoration: none;
 }
