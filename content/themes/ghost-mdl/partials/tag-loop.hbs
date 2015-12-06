@@ -11,8 +11,8 @@
 
 {{#has tag="portfolio"}}
     <article class="{{post_class}} mdl-cell mdl-portfolio  mdl-cell--4-col mdl-cell--4-col-tablet mdl-card mdl-shadow--4dp">
-        <div class="mdl-card__media mdl-color-text--grey-50" style='background-image: url({{image}})'>
-        </div>
+          <a href="{{url}}" class="mdl-card__media mdl-color-text--grey-50" style='background-image: url({{image}})'>
+        </a>
         <div class="mdl-color-text--grey-600 mdl-card__supporting-text portfolio-text">
           <div style='margin-top:15px;'>
             {{tags}}
@@ -26,8 +26,8 @@
 
 <section style="margin-bottom:30px; padding:0px" class="mdl-grid mdl-cell--12-col-desktop {{post_class}} mdl-cell--12-col mdl-cell--4-col-tablet mdl-card mdl-shadow--2dp ">
 
-            <header class="mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" style='background-image: url({{image}});background-position: 50%;background-size: cover; margin:0px!important;'>
-            </header>
+              <a href="{{url}}" class="mdl-cell mdl-cell--4-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone" style='background-image: url({{image}});background-position: 50%;background-size: cover; margin:0px!important;'>
+            </a>
             <div class="mdl-card mdl-cell mdl-cell--8-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
               <div class="mdl-card__supporting-text">
                 <h4 class="loop-title"><a href="{{url}}">{{{title}}}</a></h4>
