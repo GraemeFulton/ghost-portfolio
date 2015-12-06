@@ -2263,9 +2263,7 @@ h4.loop-title {
 .mdl-card__supporting-text{
   padding-top: .5em;
 }
-.post{
-  width:100%;
-}
+
 .portfolio-text {
     padding: 2.2vw;
     padding-top: 1vw;
@@ -2337,9 +2335,6 @@ img{
     white-space: nowrap !important;
     word-wrap: inherit !important; }
 
-    .post-template .post{
-      width:100%;
-    }
 
 /*********/
 @media (max-width: 839px) and (min-width: 480px){
