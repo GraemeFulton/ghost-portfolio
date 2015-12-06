@@ -408,7 +408,6 @@ body.nav-opened .site-wrapper {
     display: table;
     width: 100%;
     height: 56vh;
-    margin-bottom: 5rem;
     text-align: center;
     background: #222 no-repeat center center;
     background-size: cover;
@@ -1293,6 +1292,7 @@ body:not(.post-template) .post-title {
 .read-next-story .post {
     padding-top: 6rem;
     padding-bottom: 6rem;
+    width:100%;
 }
 
 .read-next-story .post:before {
@@ -1491,8 +1491,6 @@ body:not(.post-template) .post-title {
 .poweredby {
     display: block;
     width: 45%;
-    float: right;
-    text-align: right;
 }
 
 .copyright {
@@ -1732,11 +1730,13 @@ body:not(.post-template) .post-title {
         width: auto;
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-left: 16px;
-        margin-right: 16px;
         padding-bottom: 2rem;
         line-height: 1.65em;
     }
+    .mdl-grid {
+      padding: 0px;
+    }
+
 
     .post-date {
         display: none;
@@ -2246,9 +2246,12 @@ h3 a{
   height:48vh;
 }
 
-h5.loop-title {
+h4.loop-title {
   margin-top: 0px!important;
 
+}
+.mdl-card__supporting-text{
+  padding-top: .5em;
 }
 .loop-title a{
   color:#333;
@@ -2290,14 +2293,14 @@ img{
     background-color: transparent;
     border: 0px; }
   .post .syntaxhighlighter .string, .post .syntaxhighlighter .string a {
-    color: #2EACB8 !important; }
+    color: #FF9000 !important; }
   .post .syntaxhighlighter .keyword {
-    color: #14778E !important; }
+    color: #C38433 !important; }
   .post .syntaxhighlighter .comments, .post .syntaxhighlighter .comments a {
     color: #A8A8A8 !important; }
   .post .syntaxhighlighter .gutter .line {
     padding-right: 8px;
-    border-right: 2px solid #C0DDE1 !important; }
+    border-right: 2px solid rgb(245,208,164) !important; }
   .post .syntaxhighlighter textarea {
     position: absolute;
     top: 0;
@@ -2312,4 +2315,13 @@ img{
     white-space: nowrap !important;
     word-wrap: inherit !important; }
 
+    .post-template .post{
+      width:100%;
+    }
+
 /*********/
+@media (max-width: 839px) and (min-width: 480px){
+.mdl-grid {
+    padding: 0px;
+}
+}
