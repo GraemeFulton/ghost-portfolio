@@ -414,7 +414,7 @@ body.nav-opened .site-wrapper {
 }
 
 .main-header.page{
-  margin-bottom: -10vh;
+  margin-bottom: -20vh;
   z-index: -1;
 }
 
@@ -1443,7 +1443,10 @@ body:not(.post-template) .post-title {
 
 .extra-pagination {
     display: none;
-    margin-left:15px;
+    margin-left:25px;
+}
+.extra-pagination.portfolio-page{
+  margin-left:35px;
 }
 
 .extra-pagination .pagination {
@@ -1455,7 +1458,13 @@ body:not(.post-template) .post-title {
     border-bottom: 0px;
     margin-top: 20px;
 }
+.inner.mdl-cell--12-col .pagination{
+  width:97.5%;
+}
 
+.padding-top-30{
+  margin-top: 10px;
+}
 /* On page2+ make all the headers smaller */
 .archive-template .main-header {
     max-height: 30vh;
@@ -2216,13 +2225,16 @@ footer {
 
 
 .post-container{
-  float:left;
   padding:15px;
 }
 .pagi-container{
   float:left;
   position:relative;
-  width:100%;
+  width:97.5%;
+  margin-top:30px;
+}
+.content .extra-pagination{
+margin-top:30px;
 }
 h3 a{
   text-decoration: none;
@@ -2232,13 +2244,13 @@ h3 a{
   padding:15px;
 }
 .mdl-cell.mdl-portfolio{
-  height:75vh;
+  height:57vh;
 }
 .mdl-cell.mdl-portfolio-large{
   height:80vh;
 }
 .mdl-cell.mdl-portfolio-large .mdl-card__media{
-  height:80vh!important;
+  height:35vh!important;
 }
 .mdl-portfolio .mdl-card__media{
   height:48vh;
@@ -2250,6 +2262,18 @@ h4.loop-title {
 }
 .mdl-card__supporting-text{
   padding-top: .5em;
+}
+.post{
+  width:100%;
+}
+.portfolio-text {
+    padding: 2.2vw;
+    padding-top: 1vw;
+}
+.portfolio-text a{
+  color: #9e9e9e;
+  text-decoration: none;
+  padding-bottom: 1em;
 }
 .loop-title a{
   color:#333;
@@ -2329,3 +2353,19 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
 
 }
 }
+@media (min-width: 840px){
+  .mdl-cell--4-col, .mdl-cell--4-col-desktop.mdl-cell--4-col-desktop {
+      width: calc(33.3333333333% - 32px)!important;
+      margin: 16px!important;
+  }
+}
+  @media(max-width:500px){
+    .post {
+    position: relative;
+     float: none;
+     margin-bottom: 30px;
+    }
+    .mdl-card__supporting-text{
+      width:100%;
+    }
+  }
