@@ -2229,10 +2229,10 @@ h3 a{
 .mdl-card__media{
   padding:15px;
 }
-.mdl-cell{
+.mdl-cell.mdl-portfolio{
   height:75vh;
 }
-.mdl-card__media{
+.mdl-portfolio .mdl-card__media{
   height:48vh;
 }
 
@@ -2243,4 +2243,7 @@ h5.loop-title {
 .loop-title a{
   color:#333;
   text-decoration: none;
+}
+.mdl-grid{
+  float:left;
 }
