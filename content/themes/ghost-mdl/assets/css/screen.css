@@ -2281,9 +2281,6 @@ h4.loop-title {
   color:#333;
   text-decoration: none;
 }
-.mdl-grid{
-  float:left;
-}
 .post-content-wrapper{
   padding:50px;
 }
@@ -2373,10 +2370,13 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
      float: none;
      margin-bottom: 30px;
     }
-    .mdl-card__supporting-text{
-      width:100%;
-    }
+
     .mdl-layout__header-row{
           padding: 0 10px 0 0px;
     }
   }
+@media (min-width: 840px){
+  .mdl-cell--8-col, .mdl-cell--8-col-desktop.mdl-cell--8-col-desktop {
+      width: calc(66.6666666667% - 32px);
+  }
+}
