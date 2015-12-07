@@ -25,6 +25,7 @@ if (!!process.env.S3_ACCESS_KEY_ID) {
 config = {
 
   // Production (Heroku)
+  // url: process.env.HEROKU_URL
   production: {
     url: 'http://graemefulton.com',
     mail: {
