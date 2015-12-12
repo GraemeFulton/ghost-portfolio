@@ -2339,6 +2339,9 @@ img{
   width:60px;
   border-radius: 100%;
 }
+.small-icon{
+  width:20px;
+}
 .logo-image{
   width:60px;
 }
