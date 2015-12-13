@@ -2357,6 +2357,9 @@ img{
     line-height: 1.6;
     margin: 0;
 }
+.post .post-content-wrapper p{
+  margin-bottom:1.25em;
+}
 /*********/
 @media (max-width: 839px) and (min-width: 480px){
 .mdl-grid {
