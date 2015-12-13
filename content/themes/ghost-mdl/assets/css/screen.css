@@ -2349,6 +2349,14 @@ img{
   margin-right:5px;
   margin-bottom: 3px;
 }
+.post .post-content-wrapper p,.post .post-content-wrapper li {
+  color: #757575;
+    font-size: 1.25em;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.6;
+    margin: 0;
+}
 /*********/
 @media (max-width: 839px) and (min-width: 480px){
 .mdl-grid {
