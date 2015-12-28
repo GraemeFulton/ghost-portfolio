@@ -565,17 +565,12 @@ body.nav-opened .nav {
     font-size: 34px;
     text-align: center;
     text-decoration: none;
-    color: rgba(255,255,255,0.7);
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform: rotate(-90deg);
     -webkit-animation: bounce 4s 2s infinite;
     animation: bounce 4s 2s infinite;
 }
 
 /* Stop it bouncing and increase contrast when hovered */
 .scroll-down:hover {
-    color: #fff;
     -webkit-animation: none;
     animation: none;
 }
@@ -1860,30 +1855,30 @@ body:not(.post-template) .post-title {
 /* Used to bounce .scroll-down on home page */
 @-webkit-keyframes bounce {
     0%, 10%, 25%, 40%, 50% {
-        -webkit-transform: translateY(0) rotate(-90deg);
-                transform: translateY(0) rotate(-90deg);
+        -webkit-transform: translateY(0) ;
+                transform: translateY(0) ;
     }
     20% {
-        -webkit-transform: translateY(-10px) rotate(-90deg);
-                transform: translateY(-10px) rotate(-90deg);
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
     }
     30% {
-        -webkit-transform: translateY(-5px) rotate(-90deg);
-                transform: translateY(-5px) rotate(-90deg);
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
     }
 }
 @keyframes bounce {
     0%, 20%, 50%, 80%, 100% {
-        -webkit-transform: translateY(0) rotate(-90deg);
-                transform: translateY(0) rotate(-90deg);
+        -webkit-transform: translateY(0) ;
+                transform: translateY(0) ;
     }
     40% {
-        -webkit-transform: translateY(-10px) rotate(-90deg);
-                transform: translateY(-10px) rotate(-90deg);
+        -webkit-transform: translateY(-10px);
+                transform: translateY(-10px);
     }
     60% {
-        -webkit-transform: translateY(-5px) rotate(-90deg);
-                transform: translateY(-5px) rotate(-90deg);
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px) ;
     }
 }
 
@@ -1903,6 +1898,8 @@ body:not(.post-template) .post-title {
     the version number by 1 in the @font-face rule. `?v=1` becomes `?v=2`
     This forces browsers to download the new font file.
 */
+
+
 
 .portfolio-header {
   position: relative;
@@ -2062,7 +2059,6 @@ img.article-image {
 }
 
 footer {
-  background-image: url(images/footer-background.png);
   background-size: cover;
 }
 
