@@ -37,7 +37,7 @@ html {
    -ms-text-size-adjust: 100%;
    -webkit-text-size-adjust: 100%;
 }
-body { margin: 0; }
+body { margin: 0;background:#e0e0e0; }
 a { background: transparent; }
 a:focus { outline: thin dotted; }
 a:active, a:hover { outline: 0; }
@@ -338,6 +338,18 @@ body.nav-opened .site-wrapper {
    ========================================================================== */
 
 /* Big cover image on the home page */
+.main-content-wrapper {
+   margin: 0 auto;
+   max-width: 1440px;
+   width: 100%;
+   background:#fff;
+}
+.mdl-layout__header.mdl-layout__header--waterfall{
+  margin-bottom: 2px;
+}
+.mdl-layout__content{
+  max-width: 100%;
+}
 .main-header {
     position: relative;
     display: table;
@@ -1185,6 +1197,7 @@ body:not(.post-template) .post-title {
     height:60vh;
     width:100vw;
     float: left;
+    max-width: 100%;
 }
 
 .read-next-story {
