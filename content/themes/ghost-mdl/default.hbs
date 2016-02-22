@@ -46,21 +46,15 @@
      <main class="mdl-layout__content">
 
         <div class="site-wrapper">
-
             {{! Everything else gets inserted here }}
             {{{body}}}
-
-            <footer class="site-footer clearfix">
-                <section class="copyright"><a href="{{@blog.url}}">{{@blog.title}}</a> &copy; {{date format="YYYY"}}</section>
-                <section class="poweredby">Proudly published with <a href="https://ghost.org">Ghost</a></section>
-            </footer>
-
         </div>
-
+    </main>
+    {{> footer}}
         {{! Ghost outputs important scripts and data with this tag }}
         {{ghost_foot}}
 
-    </main>
+
   </div>
   <script src="https://storage.googleapis.com/code.getmdl.io/1.0.6/material.min.js"></script>
 </body>
