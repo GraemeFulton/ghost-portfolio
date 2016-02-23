@@ -318,7 +318,7 @@ margin on the iframe, cause it breaks stuff. */
     position: relative;
     z-index: 10;
     min-height: 100%;
-    background: #fff;
+    background: #f5f5f5;
     -webkit-transition: -webkit-transform 0.5s ease;
             transition: transform 0.5s ease;
 }
@@ -342,12 +342,13 @@ body.nav-opened .site-wrapper {
    margin: 0 auto;
    max-width: 1440px;
    width: 100%;
-   background:#fff;
+   background:#f5f5f5;
 }
 .mdl-layout__content{
   max-width: 100%;
   display: inherit;
   margin-top: 2px;
+  background: #fff;
 }
 .main-header {
     position: relative;
@@ -359,9 +360,34 @@ body.nav-opened .site-wrapper {
     background-size: cover;
     overflow: hidden;
 }
+#content{
+  background:#fff;
+  float: left;
+  clear: both;
+}
+.tag-portfolio{
+
+  .main-header.overlay-header{
+    h1{
+      color: #fff;
+    float: left;
+    position: absolute;
+    bottom: 7vh;
+    left: 6vw;
+    z-index: 5;
+    }
+    .overlay{
+      position:absolute; width:100%; height:100%;
+      /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+      background: -moz-linear-gradient(bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 36%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+      background: -webkit-linear-gradient(bottom, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 36%, rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+      background: linear-gradient(to top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.5) 36%, rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b',GradientType=0 ); /* IE6-9 */
+    }
+  }
+}
 
 .main-header.page{
-  margin-bottom: -20vh;
   z-index: -1;
 }
 
@@ -762,6 +788,15 @@ body.nav-opened .nav {
 .post {
     position: relative;
 }
+.tag-portfolio{
+  .post.mdl-cell--4-col{
+    float:left;
+    .mdl-card__media{
+      background-color:#eee;
+    }
+  }
+
+}
 
 /* Add a little circle in the middle of the border-bottom on our .post
    just for the lolz and stylepoints. */
@@ -784,6 +819,9 @@ body:not(.post-template) .post-title {
     font-size: 3.6rem;
 }
 
+.overlap-header{
+  margin-top:-20vh!important;
+}
 .post-title a {
     text-decoration: none;
 }
@@ -1191,7 +1229,6 @@ body:not(.post-template) .post-title {
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
-    margin-top: 5vh;
     height:60vh;
     width:100vw;
     float: left;
@@ -1430,7 +1467,9 @@ body:not(.post-template) .post-title {
 }
 
 .padding-top-30{
-  margin-top: 10px;
+  margin-top: 0px;
+  background: #fff;
+  padding-top: 30px;
 }
 /* On page2+ make all the headers smaller */
 .archive-template .main-header {
@@ -2261,13 +2300,30 @@ img{
   margin-right:5px;
   margin-bottom: 3px;
 }
-.post .post-content-wrapper p,.post .post-content-wrapper li {
-  color: #757575;
+.post .post-content-wrapper p,.post .post-content-wrapper li,
+.portfolio-content,.portfolio-content li {
+    color: #757575;
     font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.6;
     margin: 0;
+}
+.portfolio-content{
+  img{max-width: 100%;}
+}
+.portfolio-content{
+    width: 50%;
+    float: right;
+    clear: both;
+    padding-right: 12vw;
+    font-size: 1.25em;
+
+}
+.portfolio-container{
+  clear: both;
+    float: left;
+    background: #fff;
 }
 .post .post-content-wrapper p{
   margin-bottom:1.25em;
