@@ -321,7 +321,6 @@ margin on the iframe, cause it breaks stuff. */
     background: #f5f5f5;
     -webkit-transition: -webkit-transform 0.5s ease;
     transition: transform 0.5s ease;
-    overflow: hidden;
 }
 
 body.nav-opened .site-wrapper {
