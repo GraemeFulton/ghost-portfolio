@@ -2566,13 +2566,16 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
       left: 20px;
       max-width: 100%;
   }
-  .tag-portfolio .post.mdl-cell--4-col {
-  
-    width: 100%;
-  }
-
 
   }
+  @media(max-width:650px){
+    .tag-portfolio .post.mdl-cell--4-col {
+
+      width: 100%;
+    }
+
+  }
+
 
 
   @media(max-width:500px){
