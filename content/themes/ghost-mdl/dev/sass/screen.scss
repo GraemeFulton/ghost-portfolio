@@ -347,7 +347,6 @@ body.nav-opened .site-wrapper {
 .mdl-layout__content{
   max-width: 100%;
   display: inherit;
-  margin-top: 2px;
   background: #fff;
 }
 .main-header {
@@ -2502,6 +2501,7 @@ span {
       -ms-flex-align: center;
       align-items: center;
       height: 64px;
+      position:relative;
       margin: 0;
       background: #fff;
   }
