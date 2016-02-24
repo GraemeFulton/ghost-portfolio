@@ -2598,7 +2598,8 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
   }
   @media(max-width:650px){
     .tag-portfolio .post.mdl-cell--4-col {
-
+      margin: 0;
+      margin-bottom: 30px;
       width: 100%;
     }
 
