@@ -96,7 +96,12 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-
+p.rundown-text{
+  font-size: 1.4em!important;
+  font-weight: 100;
+  color:#9A9A9A;
+  line-height: 1.5em;
+}
 /* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
@@ -2315,7 +2320,7 @@ img{
 .portfolio-content{
   img{max-width: 100%;}
   p{
-    font-size:1em!important;
+    font-size:1em;
   }
 }
 .portfolio-sidepanel{
@@ -2357,7 +2362,7 @@ img{
 
 }
 .portfolio-content{
-    width: 50%;
+    width: 52%;
     float: left;
     font-size: 1.25em;
     margin-left:60px;
@@ -2506,6 +2511,8 @@ span {
       margin: 0;
       background: #fff;
   }
+
+
 
 @media (max-width: 839px) and (min-width: 480px){
 .mdl-grid {
