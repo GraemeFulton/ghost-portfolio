@@ -2316,7 +2316,16 @@ img{
     font-weight: 400;
     line-height: 1.6;
   }
+  img.user-portfolio-image {
+      width: 170px;
+      margin-left: 0;
+      margin-right: 30px;
+      float: right;
+      left: 0;
+  }
+
 }
+
 .portfolio-container.post-content-wrapper{
   padding:0;
   padding-top:50px;
@@ -2383,6 +2392,39 @@ img{
     p, img{
       margin-left: 0;
       max-width: 100%;
+    }
+  }
+  .absolute{
+    position: absolute;
+    padding: 0;
+    margin-left: 60px;
+  }
+  .full-width{
+    max-width: none;
+    margin-left: 0;
+    margin-top: 40px;
+    background: #f7f7f7;
+    padding-top: 20px;
+    position: relative;
+    width: 100%;
+    float: left;
+    clear: both;
+    margin-bottom: 50px;
+    table{
+      width:72%;float:right; border:0px;margin-right:20px;
+      p{
+        padding-left: 0;
+      }
+    }
+    p, h1, h2, h3, h4, h5, li, table{
+      margin-left: 0;
+      max-width: 100%;
+      th,td{
+        border:0px;
+      }
+    }
+    p,h1, h2, h3, h4, h5{
+      padding-left:20px;
     }
   }
 
@@ -2550,6 +2592,18 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
   .tag-portfolio .main-header.overlay-header h1{
     left:92px;
   }
+  .portfolio-content img.user-portfolio-image {
+    width: 170px;
+    left: 15%;
+    margin-right: 0;
+  }
+  .portfolio-content .full-width table {
+    width: 100%;
+  }
+  .portfolio-content .absolute {
+    padding: 0px!important;
+    margin-top: 0px;
+  }
   .portfolio-sidepanel{
     width: 100%;
     margin-left: 0px;
@@ -2579,6 +2633,7 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     width: 100%;
     margin-left: 0;
 }
+
 .portfolio-container.post-content-wrapper {
     padding: 100px;
 }
@@ -2587,6 +2642,51 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     margin-left: 0;
     max-width: 100%;
 }
+
+}
+
+@media(max-width:1030px){
+  .portfolio-content .full-width table {
+     padding:0px;
+  }
+  .portfolio-content{
+    .absolute{
+      position: relative;
+      padding: 20px;
+      margin-left: 0px;
+      width:100%;
+      
+        h4{
+          padding:15px!important;
+          padding-left: 15px!important;
+        }
+
+    }
+    .full-width{
+      padding:0px;
+      width:100%;
+      table{
+        width:96%;float:right; border:0px;margin-right:0px;
+      }
+      p, h1, h2, h3, h4, h5, li, table{
+        margin-left: 0;
+        padding:20px;
+        max-width: 100%;
+        th,td{
+          border:0px;
+        }
+      }
+      p,h1, h2, h3, h4, h5{
+        padding-left:0px;
+      }
+    }
+  }
+
+}
+@media(max-width:900px){
+  .portfolio-content img.user-portfolio-image {
+    left: 25%;
+  }
 
 }
 
@@ -2620,6 +2720,26 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
       margin-top: -20px;
     }
 
+  }
+  @media(max-width:800px){
+    .portfolio-sidepanel{
+      h4{
+        padding:15px!important;
+        padding-left: 15px!important;
+      }
+    }
+    .portfolio-content img.user-portfolio-image {
+      display:none;
+    }
+    .portfolio-content table th, .portfolio-content table td {
+     max-width: 100%;
+    }
+    td{width:100%;display: block;}
+    table{
+      width:100%;
+      float: left;
+      display: table;
+    }
   }
   @media(max-width:700px){
     .tag-portfolio .main-header.overlay-header h1 {
