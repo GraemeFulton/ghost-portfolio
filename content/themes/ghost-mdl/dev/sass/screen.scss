@@ -2310,10 +2310,6 @@ img{
   }
   img.user-portfolio-image {
       width: 170px;
-      margin-left: 0;
-      margin-right: 30px;
-      float: right;
-      left: 0;
   }
 
 }
@@ -2590,8 +2586,6 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
   }
   .portfolio-content img.user-portfolio-image {
     width: 170px;
-    left: 15%;
-    margin-right: 0;
   }
   .portfolio-content .full-width table {
     width: 100%;
@@ -2676,12 +2670,6 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
         padding-left:0px;
       }
     }
-  }
-
-}
-@media(max-width:900px){
-  .portfolio-content img.user-portfolio-image {
-    left: 25%;
   }
 
 }
