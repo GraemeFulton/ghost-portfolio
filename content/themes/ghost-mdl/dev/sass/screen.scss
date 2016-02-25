@@ -2317,6 +2317,10 @@ img{
     line-height: 1.6;
   }
 }
+.portfolio-container.post-content-wrapper{
+  padding:0;
+  padding-top:50px;
+}
 .portfolio-content p.rundown-text {
   font-size: 1.8em !important;
   font-weight: 100;
@@ -2333,7 +2337,7 @@ img{
 .portfolio-sidepanel{
   width: 20%;
   float: left;
-  margin-left: 50px;
+  margin-left: 90px;
   padding: 20px;
   padding-top: 0px;
 
@@ -2577,6 +2581,11 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
 }
 .portfolio-container.post-content-wrapper {
     padding: 100px;
+}
+.portfolio-content p, .portfolio-content img, .portfolio-content h1, .portfolio-content h2, .portfolio-content h3, .portfolio-content h4, .portfolio-content h5, .portfolio-content li {
+    width: 100%;
+    margin-left: 0;
+    max-width: 100%;
 }
 
 }
