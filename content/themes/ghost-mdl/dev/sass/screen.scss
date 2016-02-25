@@ -960,7 +960,6 @@ body:not(.post-template) .post-title {
    text column to break out. */
 .post-content img {
     display: block;
-    max-width: 126%;
     height: auto;
     padding: 0.6em 0;
 
@@ -2307,6 +2306,9 @@ img{
     color: #757575;
     font-weight: 400;
     line-height: 1.6;
+  }
+  img{
+    max-width: 126%;
   }
   img.user-portfolio-image {
       max-height: 170px;
