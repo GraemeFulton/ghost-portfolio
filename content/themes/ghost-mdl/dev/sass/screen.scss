@@ -96,12 +96,6 @@ input::-moz-focus-inner { border: 0; padding: 0; }
 textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
-p.rundown-text{
-  font-size: 1.4em!important;
-  font-weight: 100;
-  color:#9A9A9A;
-  line-height: 1.5em;
-}
 /* ==========================================================================
    2. General - Setting up some base styles
    ========================================================================== */
@@ -2308,19 +2302,32 @@ img{
   margin-right:5px;
   margin-bottom: 3px;
 }
-.post .post-content-wrapper p,.post .post-content-wrapper li,
-.portfolio-content,.portfolio-content li {
+.post .post-content-wrapper p,.post .post-content-wrapper li{
     color: #757575;
-    font-size: 1.25em;
     font-weight: 400;
     letter-spacing: 0;
     line-height: 1.6;
     margin: 0;
+
+}
+.portfolio-content {
+  p,h1,h2,h3,h4,h5,li,ol{
+    color: #757575;
+    font-weight: 400;
+    line-height: 1.6;
+  }
+}
+.portfolio-content p.rundown-text {
+  font-size: 1.8em !important;
+  font-weight: 100;
+  color: #9A9A9A;
+  line-height: 1.5em;
+  margin-bottom: 1em;
 }
 .portfolio-content{
   img{max-width: 100%;}
   p{
-    font-size:1em;
+    font-size:1.3em;
   }
 }
 .portfolio-sidepanel{
@@ -2361,11 +2368,20 @@ img{
   }
 
 }
-.portfolio-content{
-    width: 52%;
+.portfolio-content {
+  position: relative;
     float: left;
-    font-size: 1.25em;
-    margin-left:60px;
+    clear: both;
+  p, img, h1, h2, h3, h4, h5, li{
+    width: 100%;
+    margin-left: 33%;
+    max-width: 54.5%;
+    p, img{
+      margin-left: 0;
+      max-width: 100%;
+    }
+  }
+
 }
 .portfolio-container{
   clear: both;
