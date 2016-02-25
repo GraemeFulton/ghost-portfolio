@@ -2333,6 +2333,11 @@ img{
   p, li{
     font-size:1.3em;
   }
+  li{
+    p{
+      font-size: 1em;
+    }
+  }
 }
 .portfolio-sidepanel{
   width: 20%;
