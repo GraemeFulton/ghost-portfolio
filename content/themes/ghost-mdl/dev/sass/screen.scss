@@ -2385,7 +2385,11 @@ img{
   position: relative;
     float: left;
     clear: both;
-  p, img, h1, h2, h3, h4, h5, li{
+    img{
+      margin-left: 33%;
+      max-width: 54.5%;
+    }
+  p,  h1, h2, h3, h4, h5, li{
     width: 100%;
     margin-left: 33%;
     max-width: 54.5%;
