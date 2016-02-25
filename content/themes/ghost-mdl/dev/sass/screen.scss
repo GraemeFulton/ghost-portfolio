@@ -2585,9 +2585,6 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
   .tag-portfolio .main-header.overlay-header h1{
     left:92px;
   }
-  .portfolio-content img.user-portfolio-image {
-    width: 170px;
-  }
   .portfolio-content .full-width table {
     width: 100%;
   }
@@ -2628,7 +2625,7 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
 .portfolio-container.post-content-wrapper {
     padding: 100px;
 }
-.portfolio-content p, .portfolio-content img, .portfolio-content h1, .portfolio-content h2, .portfolio-content h3, .portfolio-content h4, .portfolio-content h5, .portfolio-content li {
+.portfolio-content p, .portfolio-content h1, .portfolio-content h2, .portfolio-content h3, .portfolio-content h4, .portfolio-content h5, .portfolio-content li {
     width: 100%;
     margin-left: 0;
     max-width: 100%;
