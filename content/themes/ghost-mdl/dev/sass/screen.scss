@@ -2649,11 +2649,12 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
 .portfolio-container.post-content-wrapper {
     padding: 100px;
 }
-.portfolio-content p, .portfolio-content h1, .portfolio-content h2, .portfolio-content h3, .portfolio-content h4, .portfolio-content h5, .portfolio-content li {
+.portfolio-content{
+  p, h1, h2, h3, h4, h5, li,iframe{
     width: 100%;
     margin-left: 0;
     max-width: 100%;
-}
+  }
 
 }
 
