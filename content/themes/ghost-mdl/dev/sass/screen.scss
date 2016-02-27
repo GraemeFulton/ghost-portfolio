@@ -2606,6 +2606,10 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
 }
 
 @media(max-width:1000px){
+  .mdl-layout__content{
+    overflow-y: visible;
+    overflow-x: visible;
+  }
   .tag-portfolio .main-header.overlay-header h1{
     left:92px;
   }
@@ -2650,11 +2654,13 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     padding: 100px;
 }
 .portfolio-content{
+
   p, h1, h2, h3, h4, h5, li,iframe{
     width: 100%;
     margin-left: 0;
     max-width: 100%;
   }
+}
 
 }
 
