@@ -2379,6 +2379,10 @@ img{
       float: left;
       clear: both;
     }
+    img{
+      margin-left:0;
+      max-width: 100%;
+    }
   }
 
 }
