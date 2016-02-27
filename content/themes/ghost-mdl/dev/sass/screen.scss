@@ -2303,7 +2303,7 @@ img{
 
 }
 .portfolio-content {
-  p,h1,h2,h3,h4,h5,li,ol, iframe{
+  p,h1,h2,h3,h4,h5,li,ol{
     color: #757575;
     font-weight: 400;
     line-height: 1.6;
@@ -2396,7 +2396,7 @@ img{
       margin-left: 33%;
       max-width: 54.5%;
     }
-  p,  h1, h2, h3, h4, h5, li{
+  p,  h1, h2, h3, h4, h5, li, iframe{
     width: 100%;
     margin-left: 33%;
     max-width: 54.5%;
@@ -2680,7 +2680,7 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
       table{
         width:96%;float:right; border:0px;margin-right:0px;
       }
-      p, h1, h2, h3, h4, h5, li, table{
+      p, h1, h2, h3, h4, h5, li, table, iframe{
         margin-left: 0;
         padding:20px;
         max-width: 100%;
