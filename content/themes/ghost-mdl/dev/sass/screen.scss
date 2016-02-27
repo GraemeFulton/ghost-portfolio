@@ -2374,6 +2374,12 @@ img{
         max-width:65%;
         color:#969696;
     }
+    p,h1,h2,h3,h4,h5{
+      margin-left: 0;
+      float: left;
+      clear: both;
+      margin-top: -20px;
+    }
   }
 
 }
