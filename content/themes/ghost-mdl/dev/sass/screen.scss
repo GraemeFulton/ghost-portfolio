@@ -2681,8 +2681,11 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
 }
 
 @media(max-width:1030px){
-  .portfolio-content .full-width table {
-     padding:0px;
+  .portfolio-content .full-width{
+        max-width: 95%;
+        table {
+           padding:0px;
+        }
   }
   .portfolio-content{
     .absolute{
