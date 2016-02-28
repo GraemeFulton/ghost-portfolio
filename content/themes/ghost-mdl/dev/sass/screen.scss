@@ -2637,6 +2637,10 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     margin-top: -60px;
     border-bottom: 1px solid #eaeaea;
     padding-bottom: 35px;
+    p{
+      max-width: 95%;
+      padding-left: 15px;
+    }
     dl{
       clear:both;
       dt {
