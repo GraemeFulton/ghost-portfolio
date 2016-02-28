@@ -2610,6 +2610,11 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     overflow-y: visible;
     overflow-x: visible;
   }
+  .related-story-side{
+    dd{
+      width:100%;
+    }
+  }
   .tag-portfolio .main-header.overlay-header h1{
     left:92px;
   }
