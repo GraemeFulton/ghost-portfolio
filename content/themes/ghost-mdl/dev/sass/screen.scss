@@ -2755,9 +2755,11 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
   }
   @media(max-width:800px){
     .portfolio-sidepanel{
+      border-bottom: 0px;
+      margin:0;
       h4{
-        padding:15px!important;
-        padding-left: 15px!important;
+        padding:0;
+        margin-left: 18px!important;
       }
     }
     .portfolio-content img.user-portfolio-image {
@@ -2766,11 +2768,13 @@ header.mdl-cell--4-col, .mdl-cell--4-col-phone.mdl-cell--4-col-phone {
     .portfolio-content table th, .portfolio-content table td {
      max-width: 100%;
     }
-    td{width:100%;display: block;}
+    td{width:100%;display: block;margin:0px;padding:0px;}
     table{
       width:100%;
       float: left;
       display: table;
+      margin:0px;
+      padding:0px;
     }
   }
   @media(max-width:700px){
