@@ -952,6 +952,7 @@ body:not(.post-template) .post-title {
     margin-top: 0;
     border-bottom: none;
     padding-bottom: 0;
+    margin-bottom: 70px;
 }
 
 /* Kill that stylish little circle that was on the border, too */
@@ -2396,7 +2397,6 @@ img{
 }
 .portfolio-content {
   position: relative;
-    float: left;
     clear: both;
     img{
       margin-left: 33%;
@@ -2454,7 +2454,6 @@ img{
 }
 .portfolio-container{
   clear: both;
-    float: left;
     background: #fff;
 }
 
